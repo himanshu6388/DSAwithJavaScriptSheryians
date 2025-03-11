@@ -22,4 +22,8 @@ console.log("sum of" + a + "and " + b + "is:" +( a+b));
 //"sum of 23" + "and" +b + "si" + a+b
 // "sum of  23 and "+b"is"+a+b
 
-console.log(a+b +  "is sum of "+ a + "and" +b);
+console.log(a+b +  "is sum of "+ a + "and" +b); //68
+
+
+
+console.log(1 + "1")
