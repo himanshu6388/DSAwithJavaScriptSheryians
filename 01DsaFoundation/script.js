@@ -118,13 +118,11 @@ bbb--  // Post Decrement
 --bbb  // Pre Decrement
 // console.log(bbb)  // 11
 
-
-
-
 let m = true;
 m++ 
 // console.log(m) // 2
  
+
 
 
 
