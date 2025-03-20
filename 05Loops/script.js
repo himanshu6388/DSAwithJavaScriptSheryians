@@ -95,8 +95,8 @@ for(let i =2; i<=num2/2;i++){
 // else console.log("Not Prime Number");
 
 let isPrime = isPrimeFun(11)
-if(isPrime)  console.log("Prime NUmber");
-else console.log("Not Prime Number");
+// if(isPrime)  console.log("Prime NUmber");
+// else console.log("Not Prime Number");
 function isPrimeFun(n){
     if(n<=1) return false
     if(n==2) return true
@@ -109,4 +109,9 @@ function isPrimeFun(n){
 
 
 
-//9.   
+//9.    Write a Program to take two inputs a,  b & find the value of a raised to the power of b
+let a = 2;
+let b= 6;
+let pw =0;
+pw = a**b;
+// console.log(pw);
