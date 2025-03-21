@@ -34,3 +34,35 @@ let ran = Math.floor(Math.random()*100)
     
 // }while(user !==ran);
 
+
+
+
+
+
+
+// Sasta Calculator😊
+let user = 'no'
+do{
+    let num1 = 4;
+    let num2 = 4;
+    let operator = "*"  //+ - / * 
+
+    switch(operator){
+        case '+':
+            console.log(num1+num2);
+            break;
+        case "-":
+            console.log(num1-num2);
+            break;
+        case "*":
+            console.log(num1*num2);
+            break;
+        case "/":
+            if(num2 !== 0) console.log(num1/num2);
+            else console.log("Enter valid Nuumber");
+            
+        default:
+            console.log("Please Enter valid operator");
+            break;  
+    }
+}while(user === 'yes')
