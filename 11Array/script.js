@@ -81,12 +81,3 @@ while(x<ar.length){
 
 
 
-
-// Array left rotation by 1
-let arr1 =  [1,2,3,4,5]
-let tp = arr1[0]
-for(let i=0;i<arr1.length-1;i++){
-    arr1[i] = arr1[i+1]
-}
-arr1[arr1.length-1] = tp
-console.log(arr1);
