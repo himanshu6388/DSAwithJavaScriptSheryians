@@ -81,12 +81,3 @@ for(let i=1;i<array.length;i++){
 
 
 
-//Find  Min element in array
-let array1 = [10,,23,33,45,67,54,2,39,394]
-let min = array1[0]
-for(let i=1;i<array1.length;i++){
-    if(array1[i]<min){
-        min  = array1[i]
-    }
-}
-// console.log("Min element:" +min);
