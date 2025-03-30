@@ -86,18 +86,3 @@ for(let i=1;i<array.length;i++){
     }
 }
 // console.log("Max element:" +max);
-
-
-
-// Find max element in array
-let array = [10,,23,33,45,67,54,39,394]
-let max = array[0]
-for(let i=1;i<array.length;i++){
-    if(array[i]>max){
-        max  = array[i]
-    }
-}
-// console.log("Max element:" +max);
-
-
-
