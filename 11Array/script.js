@@ -63,20 +63,6 @@ while(m<n){
 
 
 
-// All Zeroes to left and all ones to right
-let ar = [0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1,0]
-let x = 0;
-let  y =0;
-while(x<ar.length){
-    if(ar[x]==0){
-        let temp = ar[x]
-        ar[x] = ar[y]
-        ar[y] = temp
-        y++
-    }
-    x++;
-}
-// console.log(ar);
 
 
 // Array left rotation by 1
