@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height:100%;
+    width:100%;
+    background-color: #111;
+    color: #fff;
+}
+img{
+    height: 200px;
+}
+#hero{
+    font-size: 40px;
+    background-color: lightblue;
+}
+#heroine{
+    font-size: 50px;
+    background-color:pink;
+}
