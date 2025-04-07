@@ -1,10 +1,15 @@
-// 1 .getAttribute and setAttribute
+// 1 .getAttribute and setAttribut
 
 
-let h1 = document.querySelector('h1');
+let img1 = document.querySelector("#img1")
+let  img2 = document.querySelector("#img2")
+let btn = document.querySelector("button")
 
-h1.innerHTML = 'How is it going'
-let att = h1.getAttribute('id')
-  
-h1.setAttribute('id', 'heroine')
-let img = document.querySelector('img')
+
+btn.addEventListener('click', function(){
+    var img1Src = img1.getAttribute('src')
+    var img2Src = img2.getAttribute('src')
+
+    img1.setAttribute('src', img2Src)
+    img2.setAttribute('src',  img1Src)
+})
