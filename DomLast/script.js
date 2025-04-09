@@ -17,3 +17,10 @@ btn1.addEventListener('click', function(){
 btn2.addEventListener('click', function(){
     history.forward
 })
+
+// localstorage.clear()
+// localstorage.setItem()
+// localstorage.getItem()
+// localstorage.removeItem()
+
+localStorage.setItem('favorite batch','live1')
