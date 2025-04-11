@@ -18,3 +18,15 @@ button{
     background-color: #fff;
     border-radius: 5px;
 }
+.circle{
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.light{
+    background-color: lightblue;
+    color: red;
+}
+.dark{
+    background-color: rgb(3, 33, 25);
+    color:lightblue;
+}

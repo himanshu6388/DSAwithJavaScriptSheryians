@@ -49,3 +49,10 @@ var users = [
 
 
 // document.cookie()
+
+
+// let div = document.querySelector('div')
+
+// div.classList.add('circle')
+
+document.body.classList.toggle('dark')
