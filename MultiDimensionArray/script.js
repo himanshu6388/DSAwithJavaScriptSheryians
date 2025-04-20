@@ -53,7 +53,20 @@ let Transpose = function(matrix){
 
     // leetcode transpose matrix 
     
-    
+    let row = matrix.length;
+    let col = matrix[0].length;
+    let ans = new Array(col)
+    for(let i=0; i<ans.length;i++){
+        ans[i] = new Array(row)
+    }
+    for(let i=0;i<ans.length;i++){
+        for(let j=0;j<ans[i].length;j++){
+            ans[i][j] = matrix[j][i]
+        }
+    }
+    return ans
+}
+
 
 
 // 48 Leetcode problem Rotate Image
